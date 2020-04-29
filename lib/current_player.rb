@@ -1,5 +1,5 @@
 def turn_count(board)
-  index.each |character|
+  board.each |character|
     turns = 0
      if character == " X " || character == " O "
        count = turns += 1
