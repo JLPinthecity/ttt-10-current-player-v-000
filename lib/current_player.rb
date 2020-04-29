@@ -7,7 +7,3 @@ def turn_count(board)
    end
    turns
 end
-
-def current_player
-
-end
