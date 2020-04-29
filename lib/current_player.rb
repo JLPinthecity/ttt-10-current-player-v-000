@@ -4,7 +4,7 @@ def turn_count(index)
      if character == " X " || character == " O "
        count = turns += 1
    end
-   count
+   turns
 end
 
 def current_player
