@@ -2,7 +2,8 @@ def turn_count(index)
   index.each |character|
     counter = 0
      if character == " X " || character == " O "
-       counter += 1
+       count = counter += 1
+       count
      else
      end
    end
