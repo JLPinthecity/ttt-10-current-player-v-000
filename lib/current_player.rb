@@ -1,4 +1,4 @@
-def turn_count(index)
+def turn_count(board)
   index.each |character|
     turns = 0
      if character == " X " || character == " O "
