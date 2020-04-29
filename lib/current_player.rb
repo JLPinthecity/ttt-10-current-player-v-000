@@ -3,7 +3,7 @@ def turn_count(board)
     turns = 0
      if character == " X " || character == " O "
        count = turns += 1
-     end 
+     end
    end
    turns
 end
