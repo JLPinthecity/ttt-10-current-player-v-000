@@ -1,12 +1,10 @@
 def turn_count(index)
   index.each |character|
-    counter = 0
+    turns = 0
      if character == " X " || character == " O "
-       count = counter += 1
-       count
-     else
-     end
+       count = turns += 1
    end
+   count
 end
 
 def current_player
